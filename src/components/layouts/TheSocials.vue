@@ -8,8 +8,8 @@
       />
       <SocialIcon
         title="Linkedin"
-        link="https://tli/"
-        icon="ant-design:tlinkedin-outlined"
+        link="https://www.linkedin.com/in/stefan-pejcic"
+        icon="ant-design:linkedin-outlined"
       />
       <SocialIcon
         title="Instagram"
