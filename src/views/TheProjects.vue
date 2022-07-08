@@ -7,8 +7,7 @@
         Websites<span class="text-link_text_hover">.</span>
       </h1>
       <p class="text-base slg:text-lg">
-        Here are websites I've worked on in my past year of web development. Not
-        all are great but they're in order of my experience.
+        Here are websites on which I spend most of my spare time.
       </p>
     </div>
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />
