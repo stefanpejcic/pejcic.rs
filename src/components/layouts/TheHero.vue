@@ -9,18 +9,12 @@
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-      I'm Aniket Kotal, an India based Vue.js developer/Student @ Parul
-      University, with never-stopping love for learning new tech. I am
-      specialising in Web Development with Vue.js, Express, MongoDB and Node.js
-    </p>
-    <p
-      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
-    >
-      I'm currently working for
-      <LinkBtn link="https://trileotech.com/">Trileotech</LinkBtn>, a cool web
-      development company in Ahmedabad. I recently worked on
-      <LinkBtn link="https://scarletdynasty.vercel.app">Scarlet Dynasty</LinkBtn
-      >, a website for my friend's team. I am also learning GraphQL and UI/UX.
+      <LinkBtn link="https://trileotech.com/">stefan@pejcic.rs</LinkBtn>
+	  <LinkBtn link="https://trileotech.com/">sanja@pejcic.rs</LinkBtn>
+	  <LinkBtn link="https://trileotech.com/">dragana@pejcic.rs</LinkBtn>
+	  <LinkBtn link="https://trileotech.com/">liljana@pejcic.rs</LinkBtn>
+	  <LinkBtn link="https://trileotech.com/">boka@pejcic.rs</LinkBtn>
+
     </p>
   </div>
 </template>
