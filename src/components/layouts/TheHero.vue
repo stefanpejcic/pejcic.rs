@@ -9,12 +9,11 @@
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-      <LinkBtn link="https://trileotech.com/">stefan@pejcic.rs</LinkBtn>
-	  <LinkBtn link="https://trileotech.com/">sanja@pejcic.rs</LinkBtn>
-	  <LinkBtn link="https://trileotech.com/">dragana@pejcic.rs</LinkBtn>
-	  <LinkBtn link="https://trileotech.com/">liljana@pejcic.rs</LinkBtn>
-	  <LinkBtn link="https://trileotech.com/">boka@pejcic.rs</LinkBtn>
-
+      I'm currently working for
+      <LinkBtn link="https://trileotech.com/">Trileotech</LinkBtn>, a cool web
+      development company in Ahmedabad. I recently worked on
+      <LinkBtn link="https://scarletdynasty.vercel.app">Scarlet Dynasty</LinkBtn
+      >, a website for my friend's team. I am also learning GraphQL and UI/UX.
     </p>
   </div>
 </template>
