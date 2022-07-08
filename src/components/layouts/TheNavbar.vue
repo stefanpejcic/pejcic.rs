@@ -6,7 +6,7 @@
     <router-link
       to="/"
       class="font-logo text-3xl font-normal select-none slg:font-semibold lg:text-4xl"
-      >Aniket</router-link
+      >Pejcic</router-link
     >
     <div class="flex text-sm items-center gap-1 sm:gap-4">
       <router-link
@@ -25,7 +25,7 @@
         class="hover:bg-action_back font-theme_bold px-3 py-1 pb-2 rounded-md transition-all sm:px-6 sm:py-2 lg:text-base"
         to="/projects"
       >
-        Projects
+        Websites
       </router-link>
     </div>
   </nav>
