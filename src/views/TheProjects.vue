@@ -4,10 +4,10 @@
       <h1
         class="text-2xl sm:text-3xl md:text-4xl slg:text-5xl font-theme_bold text-head_text"
       >
-        Projects<span class="text-link_text_hover">.</span>
+        Websites<span class="text-link_text_hover">.</span>
       </h1>
       <p class="text-base slg:text-lg">
-        Here are projects I've worked on in my past year of web development. Not
+        Here are websites I've worked on in my past year of web development. Not
         all are great but they're in order of my experience.
       </p>
     </div>
@@ -24,8 +24,8 @@
     </div>
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />
     <div class="flex flex-col gap-2">
-      <h3 class="text-3xl font-theme_bold text-head_text">Graveyard</h3>
-      <p>Python projects I worked on and are no longer maintained.</p>
+      <h3 class="text-3xl font-theme_bold text-head_text">Open Source</h3>
+      <p>OpenSource projects.</p>
       <div class="flex flex-col mt-10 gap-8">
         <div v-for="proj in grave" :key="proj.id" class="flex flex-col gap-1">
           <a class="font-theme_bold text-head_text text-lg" :href="proj.link"

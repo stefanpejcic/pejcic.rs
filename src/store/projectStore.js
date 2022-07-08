@@ -5,53 +5,53 @@ export const useProjectStore = defineStore("projectStore", {
     projects: [
       {
         id: 1,
-        name: "Scarlet Dynasty",
+        name: "PCx3.com",
         image: new URL("../assets/featured/scarlet_dyn.png", import.meta.url)
           .href,
         description:
-          "I made this website for my friend's online store. Scarlet Dynasty is a team creating content for Minecraft Marketplace.",
+          "Guides on how to solve common cPanel and Linux problems.",
         tech: ["Vue.js", "Pinia", "TailwindCSS"],
-        link: "https://scarletdynasty.vercel.app/",
+        link: "https://pcx3.com/",
         featured: true,
       },
       {
         id: 2,
-        name: "My Old Portfolio",
+        name: "WPXSS",
         image: new URL("../assets/featured/portfolioprev.png", import.meta.url)
           .href,
         description:
-          "This is my first portfolio page. Before this one, I used it to showcase my projects.",
+          "WordPress tutorials and instructions for advanced users.",
         tech: ["Vue.js", "TailwindCSS"],
-        link: "https://aniketkotal.vercel.app/",
+        link: "https://wpxss.com/",
       },
       {
         id: 3,
-        name: "Stust - Fictional Card Designers",
+        name: "CpanelPlugins.com",
         image: new URL("../assets/featured/stust.png", import.meta.url).href,
         description:
-          "Stust is a made-up company which designs minimalistic card designs with high quality. This was a website made to practice Vue.js",
+          "CpanelPlugins is a github-hosted collection of awesome cPanel plugins.",
         tech: ["Vue.js", "TailwindCSS"],
-        link: "https://stust.vercel.app/",
+        link: "https://cpanelplugins.com",
         featured: true,
       },
       {
         id: 4,
-        name: "Mikey Wazooski",
+        name: "Pčelarstvo Pejčić",
         image: new URL("../assets/featured/mikey.jpg", import.meta.url).href,
         description:
-          "A feature-rich Discord bot I made to help me with my server and give action commands with great GIFs.",
+          "Med i pčelinji proizvodi iz srca Stare Planine",
         tech: ["JS", "Node.js", "MongoDB", "Heroku"],
         link: "https://discord.com/oauth2/authorize?client_id=819239364395532370&permissions=3912576065&scope=bot%20applications.commands",
       },
       {
         id: 5,
-        name: "Advice Generator",
+        name: "plugins.club",
         image: new URL("../assets/featured/advice-gen.png", import.meta.url)
           .href,
         description:
-          "A very simple Advice Generator, which gives advice with a click!",
+          "Premium WordPress plugins club",
         tech: ["HTML", "CSS", "JS", "REST APIs"],
-        link: "https://advice-generator-ap.vercel.app/",
+        link: "https://plugins.club/",
       },
     ],
     grave: [
