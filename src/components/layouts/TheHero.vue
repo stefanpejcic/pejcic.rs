@@ -21,7 +21,7 @@ I'm a <LinkBtn link="https://www.linkedin.com/in/stefan-pejcic/" target="_blank"
 <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-I work as a System Administrator and Technical Support Team Leader at <LinkBtn link="https://netops.com" target="_blank">NETOPS Group</LinkBtn> delivering exceptional support to customers through phone, email, and chat. I lead by example, organize work, build reports, handle escalations, and help with ad hoc projects, and training.</p>
+I work as a System Administrator and Team Leader at <LinkBtn link="https://netops.com" target="_blank">NETOPS Group</LinkBtn> delivering exceptional support to customers through phone, email, and chat. I lead by example, organize work, build reports, handle escalations, and help with ad hoc projects, and training.</p>
 <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
