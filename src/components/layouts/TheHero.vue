@@ -21,11 +21,11 @@ I'm a <LinkBtn link="https://www.linkedin.com/in/stefan-pejcic/" target="_blank"
 <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-I work as a System Administrator and Technical Support Team Leader at <a href="https://netops.com" target="_blank">NETOPS Group</a> delivering exceptional support to customers through phone, email, and chat. I lead by example, organize work, build reports, handle escalations, and help with ad hoc projects, and training.</p>
+I work as a System Administrator and Technical Support Team Leader at <LinkBtn link="https://netops.com" target="_blank">NETOPS Group</LinkBtn> delivering exceptional support to customers through phone, email, and chat. I lead by example, organize work, build reports, handle escalations, and help with ad hoc projects, and training.</p>
 <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-When I’m not on the job, I love playing with my dog, spend my time blogging on <a href="https://pcx3.com" target="_blank">PC✗3.com</a> and indulging my love for seeing new places.
+When I’m not on the job, I love playing with my dog, spend my time blogging on <LinkBtn link="https://pcx3.com" target="_blank">PC✗3.com</LinkBtn> and indulging my love for seeing new places.
     </p>
   </div>
 </template>
