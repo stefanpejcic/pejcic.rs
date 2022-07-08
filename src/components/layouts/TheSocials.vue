@@ -8,8 +8,8 @@
       />
       <SocialIcon
         title="Linkedin"
-        link="https://twitter.com/"
-        icon="ant-design:twitter-outlined"
+        link="https://tli/"
+        icon="ant-design:tlinkedin-outlined"
       />
       <SocialIcon
         title="Instagram"
