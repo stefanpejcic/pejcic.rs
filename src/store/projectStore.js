@@ -5,7 +5,7 @@ export const useProjectStore = defineStore("projectStore", {
     projects: [
       {
         id: 1,
-        name: "PCx3.com",
+        name: "👨‍💻 PC✘3.com",
         image: new URL("../assets/featured/pcx3.png", import.meta.url)
           .href,
         description:
@@ -15,8 +15,8 @@ export const useProjectStore = defineStore("projectStore", {
       },
       {
         id: 2,
-        name: "WPXSS",
-        image: new URL("../assets/featured/portfolioprev.png", import.meta.url)
+        name: "wp✘SS",
+        image: new URL("../assets/featured/wpxss.png", import.meta.url)
           .href,
         description:
           "WordPress tutorials and instructions for advanced users.",
@@ -25,7 +25,7 @@ export const useProjectStore = defineStore("projectStore", {
       },
       {
         id: 3,
-		name: "Pčelarstvo Pejčić",
+		name: "🐝 Pčelarstvo Pejčić",
         image: new URL("../assets/featured/pcelarstvopejcic.png", import.meta.url).href,
         description:
           "Med i ostali pčelinji proizvodi iz srca Stare Planine.",
@@ -42,16 +42,6 @@ export const useProjectStore = defineStore("projectStore", {
         tech: ["Vue.js", "TailwindCSS"],
         link: "https://cpanelplugins.com",
         featured: true,
-      },
-      {
-        id: 5,
-        name: "plugins.club",
-        image: new URL("../assets/featured/advice-gen.png", import.meta.url)
-          .href,
-        description:
-          "Premium WordPress plugins club",
-        tech: ["HTML", "CSS", "JS", "REST APIs"],
-        link: "https://plugins.club/",
       },
     ],
     grave: [
