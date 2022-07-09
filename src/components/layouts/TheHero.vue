@@ -25,11 +25,11 @@ I work as a System Administrator and Team Leader at <LinkBtn link="https://netop
 <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-When I’m not on the job, I spend my time blogging on <router-link class=""
+When I’m not on the job, I spend my time blogging and contributing to <router-link class=""
         to="/projects"
       >
-        my favorite OpenSource projects
-      </router-link>.
+        my favorite OpenSource projects.
+      </router-link>
     </p>
   </div>
 </template>
