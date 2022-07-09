@@ -12,7 +12,6 @@ export const useProjectStore = defineStore("projectStore", {
           "Guides on how to solve common cPanel and Linux problems.",
         tech: ["Vue.js", "Pinia", "TailwindCSS"],
         link: "https://pcx3.com/",
-        featured: true,
       },
       {
         id: 2,
@@ -26,6 +25,16 @@ export const useProjectStore = defineStore("projectStore", {
       },
       {
         id: 3,
+		name: "Pčelarstvo Pejčić",
+        image: new URL("../assets/featured/mikey.jpg", import.meta.url).href,
+        description:
+          "Med i pčelinji proizvodi iz srca Stare Planine",
+        tech: ["JS", "Node.js", "MongoDB", "Heroku"],
+        link: "https://discord.com/oauth2/authorize?client_id=819239364395532370&permissions=3912576065&scope=bot%20applications.commands",
+		featured: true,
+      },
+      {
+        id: 4,
         name: "CpanelPlugins.com",
         image: new URL("../assets/featured/stust.png", import.meta.url).href,
         description:
@@ -33,15 +42,6 @@ export const useProjectStore = defineStore("projectStore", {
         tech: ["Vue.js", "TailwindCSS"],
         link: "https://cpanelplugins.com",
         featured: true,
-      },
-      {
-        id: 4,
-        name: "Pčelarstvo Pejčić",
-        image: new URL("../assets/featured/mikey.jpg", import.meta.url).href,
-        description:
-          "Med i pčelinji proizvodi iz srca Stare Planine",
-        tech: ["JS", "Node.js", "MongoDB", "Heroku"],
-        link: "https://discord.com/oauth2/authorize?client_id=819239364395532370&permissions=3912576065&scope=bot%20applications.commands",
       },
       {
         id: 5,
