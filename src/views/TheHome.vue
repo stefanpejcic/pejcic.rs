@@ -1,10 +1,10 @@
 <script>
-import FeaturedWebsites from "../components/layouts/FeaturedWebsites.vue";
+import FeaturedProjects from "../components/layouts/FeaturedProjects.vue";
 import TheHero from "../components/layouts/TheHero.vue";
 import TheSocials from "../components/layouts/TheSocials.vue";
 export default {
   setup() {},
-  components: { TheHero, TheSocials, FeaturedWebsites },
+  components: { TheHero, TheSocials, FeaturedProjects },
 };
 </script>
 
@@ -13,6 +13,6 @@ export default {
     <TheHero />
     <TheSocials />
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />
-    <FeaturedWebsites />
+    <FeaturedProjects />
   </div>
 </template>

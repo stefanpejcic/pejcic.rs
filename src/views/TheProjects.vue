@@ -13,7 +13,7 @@
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />
     <div class="flex flex-col items-center justify-center gap-28">
       <MainProjectItem
-        v-for="proj in websites"
+        v-for="proj in projects"
         :key="proj.id"
         :name="proj.name"
         :image="proj.image"
@@ -39,17 +39,17 @@
 </template>
 
 <script>
-import MainWebsiteItem from "../components/ui/MainWebsiteItem.vue";
-import { useWebsiteStore } from "../store/websiteStore";
+import MainProjectItem from "../components/ui/MainProjectItem.vue";
+import { useProjectStore } from "../store/projectStore";
 
 export default {
-  components: { MainWebsiteItem },
+  components: { MainProjectItem },
   setup() {
-    const websiteStore = useWebsiteStore();
-    const websites = websiteStore.getAllWebsites;
-    const grave = websiteStore.getGraveWebsites;
+    const projectStore = useProjectStore();
+    const projects = projectStore.getAllProjects;
+    const grave = projectStore.getGraveProjects;
 
-    return { websites, grave };
+    return { projects, grave };
   },
 };
 </script>
