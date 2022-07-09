@@ -7,7 +7,11 @@
         Websites<span class="text-link_text_hover">.</span>
       </h1>
       <p class="text-base slg:text-lg">
-        I spend the majority of my free time on these projects.
+
+Outside of work, I like doing side projects to try out new tech and build something fun.</p>
+        
+<p class="text-base slg:text-lg">
+I spend the majority of my free time on these projects.
       </p>
     </div>
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />
