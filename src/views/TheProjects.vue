@@ -24,7 +24,7 @@
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />
     <div class="flex flex-col gap-2">
       <h3 id="opensource" class="text-3xl font-theme_bold text-head_text">Open Source</h3>
-      <p>OpenSource projects.</p>
+      <p>mostly cPanel and WordPress stuff..</p>
       <div class="flex flex-col mt-10 gap-8">
         <div v-for="proj in grave" :key="proj.id" class="flex flex-col gap-1">
           <a class="font-theme_bold text-head_text text-lg" :href="proj.link"

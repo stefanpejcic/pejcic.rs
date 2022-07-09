@@ -51,7 +51,7 @@ export const useProjectStore = defineStore("projectStore", {
         image: new URL("../assets/featured/case_changer.jpg", import.meta.url)
           .href,
         description:
-          "Prevodi cirilicu u latinicu i obrnuto, cilj je napisati konverter u svim jezicima.",
+          "Prevodi cirilicu u latinicu i obrnuto.",
         tech: ["Python", "Pandas"],
         link: "https://github.com/stefanpejcic/Cirilica-u-Latinicu",
       },

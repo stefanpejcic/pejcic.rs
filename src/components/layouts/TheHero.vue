@@ -25,7 +25,7 @@ I work as a System Administrator and Team Leader at <LinkBtn link="https://netop
 <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-When I’m not on the job, I spend my time blogging on <LinkBtn link="https://pcx3.com" target="_blank">PC✗3.com</LinkBtn> and contribute to my favorite OpenSource projects.
+When I’m not on the job, I spend my time blogging on <LinkBtn link="https://pcx3.com" target="_blank">PC✗3.com</LinkBtn> and contribute to <LinkBtn link="/projects#opensource">my favorite OpenSource projects</LinkBtn>.
     </p>
   </div>
 </template>
