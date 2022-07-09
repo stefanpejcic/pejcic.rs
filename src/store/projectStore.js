@@ -6,7 +6,7 @@ export const useProjectStore = defineStore("projectStore", {
       {
         id: 1,
         name: "PCx3.com",
-        image: new URL("../assets/featured/scarlet_dyn.png", import.meta.url)
+        image: new URL("../assets/featured/pcx3.png", import.meta.url)
           .href,
         description:
           "Guides on how to solve common cPanel and Linux problems.",
@@ -28,17 +28,17 @@ export const useProjectStore = defineStore("projectStore", {
 		name: "Pčelarstvo Pejčić",
         image: new URL("../assets/featured/pcelarstvopejcic.png", import.meta.url).href,
         description:
-          "Med i pčelinji proizvodi iz srca Stare Planine",
+          "Med i ostali pčelinji proizvodi iz srca Stare Planine.",
         tech: ["JS", "Node.js", "MongoDB", "Heroku"],
-        link: "https://discord.com/oauth2/authorize?client_id=819239364395532370&permissions=3912576065&scope=bot%20applications.commands",
+        link: "https://pcelarstvopejcic.com",
 		featured: true,
       },
       {
         id: 4,
         name: "CpanelPlugins.com",
-        image: new URL("../assets/featured/stust.png", import.meta.url).href,
+        image: new URL("../assets/featured/cpanelplugins.png", import.meta.url).href,
         description:
-          "CpanelPlugins is a github-hosted collection of awesome cPanel plugins.",
+          "a github-hosted collection of awesome cPanel plugins.",
         tech: ["Vue.js", "TailwindCSS"],
         link: "https://cpanelplugins.com",
         featured: true,
@@ -57,32 +57,32 @@ export const useProjectStore = defineStore("projectStore", {
     grave: [
       {
         id: 1,
-        name: "Text Case Changer",
+        name: "ćirilica u ošišanu latinicu",
         image: new URL("../assets/featured/case_changer.jpg", import.meta.url)
           .href,
         description:
-          "A simple text case modifier to change case of text as need.",
+          "Prevodi cirilicu u latinicu i obrnuto, cilj je napisati konverter u svim jezicima.",
         tech: ["Python", "Pandas"],
-        link: "https://github.com/mightykillrr/case_changer",
+        link: "https://github.com/stefanpejcic/Cirilica-u-Latinicu",
       },
       {
         id: 2,
-        name: "Tic Tac Toe",
+        name: "WordPress Malware Collection",
         image: new URL("../assets/featured/tic_tac_toe.jpg", import.meta.url)
           .href,
         description:
-          "A game I made as a school project which I am very proud of.",
+          "Collection of malware files found on WordPress sites.",
         tech: ["Python", "Pandas"],
-        link: "https://github.com/mightykillrr/tic-tac-toe",
+        link: "https://github.com/stefanpejcic/wordpress-malware",
       },
       {
         id: 3,
-        name: "Advanced Calculator",
+        name: "ColdFusion Cheat Sheet",
         image: new URL("../assets/featured/calc.jpg", import.meta.url).href,
         description:
-          "An advanced calculator and my first ever HUGE Python project.",
+          "Master CF in no-time with these easy to remember cheat codes!",
         tech: ["Python", "MathLib"],
-        link: "https://github.com/mightykillrr/advanced_calc",
+        link: "https://stefanpejcic.github.io/coldfusion/",
       },
     ],
   }),
