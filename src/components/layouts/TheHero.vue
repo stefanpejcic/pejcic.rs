@@ -25,8 +25,8 @@ I work as a System Administrator and Team Leader at <LinkBtn link="https://netop
 <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-When I’m not on the job, I spend my time blogging on <router-link class="hover:bg-action_back font-theme_bold px-3 py-1 pb-2 rounded-md transition-all sm:px-6 sm:py-2 lg:text-base"
-        to="/projects#opensource"
+When I’m not on the job, I spend my time blogging on <router-link class=""
+        to="/projects"
       >
         my favorite OpenSource projects
       </router-link>.
