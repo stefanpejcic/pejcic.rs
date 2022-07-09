@@ -26,7 +26,7 @@ export const useProjectStore = defineStore("projectStore", {
       {
         id: 3,
 		name: "Pčelarstvo Pejčić",
-        image: new URL("../assets/featured/mikey.jpg", import.meta.url).href,
+        image: new URL("../assets/featured/pcelarstvopejcic.png", import.meta.url).href,
         description:
           "Med i pčelinji proizvodi iz srca Stare Planine",
         tech: ["JS", "Node.js", "MongoDB", "Heroku"],
