@@ -9,8 +9,8 @@
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-      I have over 8 years of experience working in WordPress and cPanel.
-	  Currently, I work as as a System Administrator and Team Leader at NETOPS Group delivering exceptional support to customers through phone, email, and chat. I lead by example, organize work, build reports, handle escalations, and help with ad hoc projects, and training.
+      I have over 8 years of experience working in <LinkBtn link="https://profiles.wordpress.org/stefanpejcic/#content-plugins" target="_blank">WordPress</LinkBtn> and <LinkBtn link="https://forums.cpanel.net/members/stefanpejcic.1058429/" target="_blank">cPanel</LinkBtn>.
+	  Currently, I work as as a System Administrator and Team Leader at <LinkBtn link="https://netops.com" target="_blank">NETOPS Group</LinkBtn> delivering exceptional support to customers through phone, email, and chat. I lead by example, organize work, build reports, handle escalations, and help with ad hoc projects, and training.
     </p>
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6" />
     <div class="flex flex-col gap-5">

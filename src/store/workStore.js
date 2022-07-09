@@ -24,8 +24,8 @@ export const useWorkStore = defineStore("workStore", {
         name: "WPorb d.o.o.",
         position: "Junior PHP Developer",
         from: "2017",
-        to: "2018",
-        link: "https://atiscom.com/",
+        to: "2019",
+        link: "https://wporb.com/",
       },
 	  {
         id: 4,
