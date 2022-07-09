@@ -1,8 +1,8 @@
 import { defineStore } from "pinia";
 
-export const useProjectStore = defineStore("projectStore", {
+export const useWebsiteStore = defineStore("websiteStore", {
   state: () => ({
-    projects: [
+    websites: [
       {
         id: 1,
         name: "PCx3.com",
@@ -87,9 +87,9 @@ export const useProjectStore = defineStore("projectStore", {
     ],
   }),
   getters: {
-    getAllProjects: (state) => state.projects,
-    getFeaturedProjects: (state) =>
-      state.projects.filter((project) => project.featured),
-    getGraveProjects: (state) => state.grave,
+    getAllWebsites: (state) => state.websites,
+    getFeaturedWebsites: (state) =>
+      state.websites.filter((website) => website.featured),
+    getGraveWebsites: (state) => state.grave,
   },
 });

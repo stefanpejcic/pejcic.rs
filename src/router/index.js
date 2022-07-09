@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import NotFound from "../views/NotFound.vue";
 import TheAbout from "../views/TheAbout.vue";
 import TheHome from "../views/TheHome.vue";
-import TheProjects from "../views/TheProjects.vue";
+import TheWebsites from "../views/TheWebsites.vue";
 
 const routes = [
   {
@@ -21,9 +21,9 @@ const routes = [
     component: TheAbout,
   },
   {
-    path: "/projects",
-    name: "projects",
-    component: TheProjects,
+    path: "/websites",
+    name: "websites",
+    component: TheWebsites,
   },
   {
     path: "/:pathMatch(.*)*",

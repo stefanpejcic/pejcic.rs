@@ -13,7 +13,7 @@
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />
     <div class="flex flex-col items-center justify-center gap-28">
       <MainProjectItem
-        v-for="proj in projects"
+        v-for="proj in websites"
         :key="proj.id"
         :name="proj.name"
         :image="proj.image"
@@ -23,7 +23,7 @@
     </div>
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />
     <div class="flex flex-col gap-2">
-      <h3 class="text-3xl font-theme_bold text-head_text">Open Source</h3>
+      <h3 id="opensource" class="text-3xl font-theme_bold text-head_text">Open Source</h3>
       <p>OpenSource projects.</p>
       <div class="flex flex-col mt-10 gap-8">
         <div v-for="proj in grave" :key="proj.id" class="flex flex-col gap-1">
@@ -39,17 +39,17 @@
 </template>
 
 <script>
-import MainProjectItem from "../components/ui/MainProjectItem.vue";
-import { useProjectStore } from "../store/projectStore";
+import MainWebsiteItem from "../components/ui/MainWebsiteItem.vue";
+import { useWebsiteStore } from "../store/websiteStore";
 
 export default {
-  components: { MainProjectItem },
+  components: { MainWebsiteItem },
   setup() {
-    const projectStore = useProjectStore();
-    const projects = projectStore.getAllProjects;
-    const grave = projectStore.getGraveProjects;
+    const websiteStore = useWebsiteStore();
+    const websites = websiteStore.getAllWebsites;
+    const grave = websiteStore.getGraveWebsites;
 
-    return { projects, grave };
+    return { websites, grave };
   },
 };
 </script>
