@@ -76,7 +76,7 @@ export const useProjectStore = defineStore("projectStore", {
       },
 	  {
         id: 4,
-        name: "FixPermissions cPpanel plugin",
+        name: "FixPermissions cPanel plugin",
         image: new URL("../assets/featured/calc.jpg", import.meta.url).href,
         description:
           "Fix permissions for each domain under a cpanel account.",
