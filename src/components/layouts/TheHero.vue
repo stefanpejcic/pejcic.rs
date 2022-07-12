@@ -15,7 +15,7 @@
 <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-I am forging my decade plus experience within IT doing: Technical Support, Web Hosting, System Administration, and cPanel Hosting.
+I am forging my decade plus experience within IT doing: Technical Support, Web Hosting, System Administration, and WordPress development.
 </p>
 <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
@@ -25,7 +25,7 @@ I offer <LinkBtn link="https://pcx3.com" target="_blank">articles</LinkBtn> with
 <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-When I’m not on the job, I spend my time blogging and contributing to <router-link class=""
+When I’m not on the job, I spend my time talking about crypto and contributing to <router-link class=""
         to="/projects/#opensource"
       >
         my favorite OpenSource projects.
