@@ -26,8 +26,13 @@
 	<p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-    I’ve picked up a few tricks with WordPress and other popular web hosting software as well that permeate the hosting landscape in these modern days.
+   Throughout my career, I’ve worked with companies large and small to meet their business goals and I’ve been fortunate enough to contribute to such global brands as Michelin and Raiffeisen Bank.
     </p>
+<p
+      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
+    >
+If you want to work together, have an idea or simply want to say hello, then <LinkBtn link="mailto:stefan@pejcic.rs">send me an email</LinkBtn>.
+	</p>
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25 my-6" />
     <div class="flex flex-col gap-5">
       <h3 class="font-theme_bold text-head_text text-3xl">Work</h3>
