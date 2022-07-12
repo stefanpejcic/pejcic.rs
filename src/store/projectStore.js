@@ -45,7 +45,7 @@ export const useProjectStore = defineStore("projectStore", {
       },
 	  {
         id: 5,
-        name: "plugins.club",
+        name: "🔌 plugins.club",
         image: new URL("../assets/featured/pluginsclub.png", import.meta.url).href,
         description:
           "Free & Premium WordPress plugins.",
