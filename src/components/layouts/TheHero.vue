@@ -21,7 +21,13 @@ I'm a <LinkBtn link="https://www.linkedin.com/in/stefan-pejcic/" target="_blank"
 <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-I work as a System Administrator and Team Leader at <LinkBtn link="https://netops.com" target="_blank">NETOPS Group</LinkBtn> delivering exceptional support to customers through phone, email, and chat. I lead by example, organize work, build reports, handle escalations, and help with ad hoc projects, and training.</p>
+I am forging my decade plus experience within IT doing: Technical Support, Web Hosting, System Administration, and cPanel Hosting.
+</p>
+<p
+      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
+    >
+I offer <LinkBtn link="https://pcx3.com" target="_blank">articles</LinkBtn> with my insights, tips, tricks, & scripts to assist with Linux System Adminstration.	
+</p>
 <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
