@@ -26,7 +26,7 @@ I offer <LinkBtn link="https://pcx3.com" target="_blank">articles</LinkBtn> with
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
 When I’m not on the job, I spend my time blogging and contributing to <router-link class=""
-        to="/projects#opensource"
+        to="/projects/#opensource"
       >
         my favorite OpenSource projects.
       </router-link>
