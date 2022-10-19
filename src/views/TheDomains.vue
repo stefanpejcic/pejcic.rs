@@ -14,7 +14,7 @@ If you are interested in acquiring a domain name please send an email to stefan@
       </p>
     </div>
     <hr class="bg-squgily bg-repeat border-0 h-[6px] opacity-25" />
-    <div class="flex flex-col items-center justify-center gap-28">
+    <div class="flex flex-col gap-28">
       <MainDomainItem
         v-for="proj in domains"
         :key="proj.id"
