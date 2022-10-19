@@ -6,7 +6,6 @@ export const useDomainStore = defineStore("domainStore", {
       {
         id: 1,
         name: "👨‍💻 PC✘3.com",
-          .href,
         description:
           "Guides on how to solve common cPanel and Linux problems.",
         tech: ["Vue.js", "Pinia", "TailwindCSS"],
@@ -15,8 +14,7 @@ export const useDomainStore = defineStore("domainStore", {
       {
         id: 2,
         name: "wp✘SS",
-          .href,
-        description:
+	description:
           "WordPress tutorials and instructions for advanced users.",
         tech: ["Vue.js", "TailwindCSS"],
         link: "https://wpxss.com/",
@@ -52,7 +50,6 @@ export const useDomainStore = defineStore("domainStore", {
       {
         id: 1,
         name: "ćirilica u ošišanu latinicu",
-          .href,
         description:
           "Prevodi cirilicu u latinicu i obrnuto.",
         tech: ["Python", "Pandas"],
@@ -61,7 +58,6 @@ export const useDomainStore = defineStore("domainStore", {
       {
         id: 2,
         name: "WordPress Malware Collection",
-          .href,
         description:
           "Collection of malware files found on WordPress sites.",
         tech: ["Python", "Pandas"],
