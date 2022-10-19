@@ -8,7 +8,7 @@
       </h1>
       <p class="text-base slg:text-lg">
 
-Here are some of my domain names</p>
+If you are interested in acquiring a domain name please send an email to stefan@pejcic.rs</p>
         
 <p class="text-base slg:text-lg">
       </p>
