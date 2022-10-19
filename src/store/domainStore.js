@@ -8,7 +8,6 @@ export const useDomainStore = defineStore("domainStore", {
         name: "👨‍💻 PC✘3.com",
         description:
           "Guides on how to solve common cPanel and Linux problems.",
-        tech: ["Vue.js", "Pinia", "TailwindCSS"],
         link: "https://pcx3.com/",
       },
       {
@@ -16,7 +15,6 @@ export const useDomainStore = defineStore("domainStore", {
         name: "wp✘SS",
 	description:
           "WordPress tutorials and instructions for advanced users.",
-        tech: ["Vue.js", "TailwindCSS"],
         link: "https://wpxss.com/",
       },
       {
@@ -24,7 +22,6 @@ export const useDomainStore = defineStore("domainStore", {
 		name: "🐝 Pčelarstvo Pejčić",
         description:
           "Med i ostali pčelinji proizvodi iz srca Stare Planine.",
-        tech: ["JS", "Node.js", "MongoDB", "Heroku"],
         link: "https://pcelarstvopejcic.com",
 		featured: true,
       },
@@ -33,7 +30,6 @@ export const useDomainStore = defineStore("domainStore", {
         name: "CpanelPlugins.com",
         description:
           "a github-hosted collection of awesome cPanel plugins.",
-        tech: ["Vue.js", "TailwindCSS"],
         link: "https://cpanelplugins.com",
         featured: true,
       }
