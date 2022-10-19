@@ -46,40 +46,6 @@ export const useDomainStore = defineStore("domainStore", {
         link: "https://plugins.club",
       },
     ],
-    grave: [
-      {
-        id: 1,
-        name: "ćirilica u ošišanu latinicu",
-        description:
-          "Prevodi cirilicu u latinicu i obrnuto.",
-        tech: ["Python", "Pandas"],
-        link: "https://github.com/stefanpejcic/Cirilica-u-Latinicu",
-      },
-      {
-        id: 2,
-        name: "WordPress Malware Collection",
-        description:
-          "Collection of malware files found on WordPress sites.",
-        tech: ["Python", "Pandas"],
-        link: "https://github.com/stefanpejcic/wordpress-malware",
-      },
-      {
-        id: 3,
-        name: "ColdFusion Cheat Sheet",
-        description:
-          "Master CF in no-time with these easy to remember cheat codes!",
-        tech: ["Python", "MathLib"],
-        link: "https://stefanpejcic.github.io/coldfusion/",
-      },
-	  {
-        id: 4,
-        name: "FixPermissions cPanel plugin",
-        description:
-          "Fix permissions for each domain under a cpanel account.",
-        tech: ["Python", "MathLib"],
-        link: "https://github.com/stefanpejcic/fixPermissions-cpanel-plugin",
-      },
-    ],
   }),
   getters: {
     getAllDomains: (state) => state.domains,
