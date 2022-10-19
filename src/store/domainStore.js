@@ -36,15 +36,7 @@ export const useDomainStore = defineStore("domainStore", {
         tech: ["Vue.js", "TailwindCSS"],
         link: "https://cpanelplugins.com",
         featured: true,
-      },
-	  {
-        id: 5,
-        name: "🔌 plugins.club",
-        description:
-          "Free & Premium WordPress plugins.",
-        tech: ["Vue.js", "TailwindCSS"],
-        link: "https://plugins.club",
-      },
+      }
     ],
   }),
   getters: {
