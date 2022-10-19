@@ -5,32 +5,32 @@ export const useDomainStore = defineStore("domainStore", {
     domains: [
       {
         id: 1,
-        name: "👨‍💻 PC✘3.com",
+        name: "plugins.club",
         description:
-          "Guides on how to solve common cPanel and Linux problems.",
-        link: "https://pcx3.com/",
+          "Premium .club domain name",
+        link: "https://plugins.club/",
       },
       {
         id: 2,
-        name: "wp✘SS",
+        name: "TE.ST",
 	description:
-          "WordPress tutorials and instructions for advanced users.",
-        link: "https://wpxss.com/",
+          "Short .st domain used for testing",
+        link: "https://te.st/",
       },
       {
         id: 3,
-		name: "🐝 Pčelarstvo Pejčić",
+		name: "sh.guide",
         description:
-          "Med i ostali pčelinji proizvodi iz srca Stare Planine.",
-        link: "https://pcelarstvopejcic.com",
+          ".guide",
+        link: "https://sh.guide",
 		featured: true,
       },
       {
         id: 4,
-        name: "CpanelPlugins.com",
+        name: "zu.rs",
         description:
-          "a github-hosted collection of awesome cPanel plugins.",
-        link: "https://cpanelplugins.com",
+          "short .rs",
+        link: "https://zu.rs",
         featured: true,
       }
     ],
