@@ -16,7 +16,7 @@ export const useProjectStore = defineStore("projectStore", {
       {
         id: 2,
         name: "wp✘SS",
-        image: new URL("../assets/featured/wpxss.png", import.meta.url)
+        image: new URL("../assets/featured/wpxss.webp", import.meta.url)
           .href,
         description:
           "WordPress tutorials and instructions for advanced users.",
