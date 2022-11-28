@@ -6,7 +6,7 @@ export const useProjectStore = defineStore("projectStore", {
       {
         id: 1,
         name: "👨‍💻 PC✘3.com",
-        image: new URL("../assets/featured/pcx3.png", import.meta.url)
+        image: new URL("../assets/featured/pcx3.webp", import.meta.url)
           .href,
         description:
           "Guides on how to solve common cPanel and Linux problems.",
@@ -26,7 +26,7 @@ export const useProjectStore = defineStore("projectStore", {
       {
         id: 3,
 		name: "🐝 Pčelarstvo Pejčić",
-        image: new URL("../assets/featured/pcelarstvopejcic.png", import.meta.url).href,
+        image: new URL("../assets/featured/pcelarstvopejcic.webp", import.meta.url).href,
         description:
           "Med i ostali pčelinji proizvodi iz srca Stare Planine.",
         tech: ["JS", "Node.js", "MongoDB", "Heroku"],
@@ -36,7 +36,7 @@ export const useProjectStore = defineStore("projectStore", {
       {
         id: 4,
         name: "CpanelPlugins.com",
-        image: new URL("../assets/featured/cpanelplugins.png", import.meta.url).href,
+        image: new URL("../assets/featured/cpanelplugins.webp", import.meta.url).href,
         description:
           "a github-hosted collection of awesome cPanel plugins.",
         tech: ["Vue.js", "TailwindCSS"],
@@ -46,7 +46,7 @@ export const useProjectStore = defineStore("projectStore", {
 	  {
         id: 5,
         name: "🔌 plugins.club",
-        image: new URL("../assets/featured/pluginsclub.png", import.meta.url).href,
+        image: new URL("../assets/featured/pluginsclub.webp", import.meta.url).href,
         description:
           "Free & Premium WordPress plugins.",
         tech: ["Vue.js", "TailwindCSS"],
