@@ -43,15 +43,6 @@ export const useProjectStore = defineStore("projectStore", {
         link: "https://cpanelplugins.com",
         featured: true,
       },
-	  {
-        id: 5,
-        name: "🔌 plugins.club",
-        image: new URL("../assets/featured/pluginsclub.webp", import.meta.url).href,
-        description:
-          "Free & Premium WordPress plugins.",
-        tech: ["Vue.js", "TailwindCSS"],
-        link: "https://plugins.club",
-      },
     ],
     grave: [
       {
