@@ -41,7 +41,6 @@ export const useProjectStore = defineStore("projectStore", {
           "Free & Premium WordPress Plugins.",
         tech: ["Vue.js", "TailwindCSS"],
         link: "https://plugins.club",
-        featured: true,
       },
 	{
         id: 5,
