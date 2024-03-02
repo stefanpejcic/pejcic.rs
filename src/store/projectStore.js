@@ -5,6 +5,17 @@ export const useProjectStore = defineStore("projectStore", {
     projects: [
       {
         id: 1,
+        name: "OpenPanel",
+        image: new URL("../assets/featured/openpanel.png", import.meta.url)
+          .href,
+        description:
+          "Next generation hosting control panel",
+        tech: ["React", "Flask", "Docker"],
+        link: "https://openpanel.co/",
+		featured: true,
+      },
+      {
+        id: 2,
         name: "👨‍💻 PC✘3.com",
         image: new URL("../assets/featured/pcx3.webp", import.meta.url)
           .href,
@@ -14,7 +25,7 @@ export const useProjectStore = defineStore("projectStore", {
         link: "https://pcx3.com/",
       },
       {
-        id: 2,
+        id: 3,
         name: "wp✘SS",
         image: new URL("../assets/featured/wpxss.webp", import.meta.url)
           .href,
@@ -24,33 +35,32 @@ export const useProjectStore = defineStore("projectStore", {
         link: "https://wpxss.com/",
       },
       {
-        id: 3,
+        id: 4,
 		name: "🐝 Pčelarstvo Pejčić",
         image: new URL("../assets/featured/pcelarstvopejcic.webp", import.meta.url).href,
         description:
           "Med i ostali pčelinji proizvodi iz srca Stare Planine.",
         tech: ["JS", "Node.js", "MongoDB", "Heroku"],
         link: "https://pcelarstvopejcic.com",
-		featured: true,
       },
       {
-        id: 4,
+        id: 5,
         name: "plugins.club",
         image: new URL("../assets/featured/pluginsclub.webp", import.meta.url).href,
         description:
           "Free & Premium WordPress Plugins.",
         tech: ["Vue.js", "TailwindCSS"],
         link: "https://plugins.club",
+		featured: true,
       },
 	{
-        id: 5,
+        id: 6,
         name: "CpanelPlugins.com",
-        image: new URL("../assets/featured/cpanelplugins.webp", import.meta.url).href,
+        image: new URL("../assets/featured/cpanelplugins.png", import.meta.url).href,
         description:
           "a github-hosted collection of awesome cPanel plugins.",
         tech: ["Vue.js", "TailwindCSS"],
         link: "https://cpanelplugins.com",
-        featured: true,
       },
     ],
     grave: [
