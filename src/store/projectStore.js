@@ -11,7 +11,7 @@ export const useProjectStore = defineStore("projectStore", {
         description:
           "Next generation hosting control panel",
         tech: ["React", "Flask", "Docker"],
-        link: "https://openpanel.co/",
+        link: "https://openpanel.cmo/",
 		featured: true,
       },
       {
