@@ -11,7 +11,7 @@ export const useProjectStore = defineStore("projectStore", {
         description:
           "Next generation hosting control panel",
         tech: ["React", "Flask", "Docker"],
-        link: "https://openpanel.cmo/",
+        link: "https://openpanel.com/",
 		featured: true,
       },
       {
@@ -52,15 +52,6 @@ export const useProjectStore = defineStore("projectStore", {
         tech: ["Vue.js", "TailwindCSS"],
         link: "https://plugins.club",
 		featured: true,
-      },
-	{
-        id: 6,
-        name: "CpanelPlugins.com",
-        image: new URL("../assets/featured/cpanelplugins.png", import.meta.url).href,
-        description:
-          "a github-hosted collection of awesome cPanel plugins.",
-        tech: ["Vue.js", "TailwindCSS"],
-        link: "https://cpanelplugins.com",
       },
     ],
     grave: [
