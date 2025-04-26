@@ -1,3 +1,5 @@
+
+ARG NODE_VERSION=20.0.0
 FROM node:${NODE_VERSION}-alpine
 
 ENV NODE_ENV production
