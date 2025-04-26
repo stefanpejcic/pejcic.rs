@@ -22,4 +22,4 @@ ENV NODE_ENV production
 
 EXPOSE 3000
 
-CMD [ "serve", "-s", "dist", "-l", "0.0.0.0:3000" ]
+CMD [ "serve", "-s", "dist", "-l", "3000" ]
