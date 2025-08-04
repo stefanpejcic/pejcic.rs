@@ -9,19 +9,14 @@
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-      I have over 8 years of experience working in <LinkBtn link="https://profiles.wordpress.org/stefanpejcic/#content-plugins" target="_blank">WordPress</LinkBtn> and <LinkBtn link="https://forums.cpanel.net/members/stefanpejcic.1058429/" target="_blank">cPanel</LinkBtn>.
+      I have more than a decade of experience working in <LinkBtn link="https://profiles.wordpress.org/stefanpejcic/#content-plugins" target="_blank">WordPress</LinkBtn> and <LinkBtn link="https://openpanel.com/?utm_source=pejcic.rs" target="_blank">cPanel</LinkBtn>.
 	  Currently, I work as as a System Administrator and Team Leader at <LinkBtn link="https://netops.com" target="_blank">NETOPS Group</LinkBtn> delivering exceptional support to customers through phone, email, and chat. I lead by example, organize work, build reports, handle escalations, and help with ad hoc projects, and training.
     </p>
 	
 	<p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-    For the past several years, I’ve been working more closely with cPanel servers on a daily basis providing fully managed cPanel and WordPress support to thousands of customers. I’ve picked up many tricks and written many scripts in this time frame that I want to share with the world.
-    </p>
-	<p
-      class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
-    >
-    I recently got the chance to write a technical article for my employer and it ignited a fire in my heart. I’ve discovered a new passion for technical writing and this is going to be the focus of my endeavors moving forward.
+    For the past several years, I’ve been working more closely with OpenPanel servers on a daily basis providing fully managed OpenPanel and WordPress support to thousands of customers. I’ve picked up many tricks and written many scripts in this time frame that I want to share with the world.
     </p>
 	<p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
