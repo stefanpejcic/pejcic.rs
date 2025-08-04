@@ -5,6 +5,14 @@ export const useWorkStore = defineStore("workStore", {
     works: [
       {
         id: 1,
+        name: "OpenPanel BV",
+        position: "Co-Founder",
+        from: "2023",
+        to: "Cur.",
+        link: "https://openpanel.com/",
+      },
+      {
+        id: 2,
         name: "NETOPS Group",
         position: "System Administrator",
         from: "2020",
@@ -12,7 +20,7 @@ export const useWorkStore = defineStore("workStore", {
         link: "https://netops.com/",
       },
 	  {
-        id: 2,
+        id: 3,
         name: "Mega Computer Engineering",
         position: "Jr. System Administrator",
         from: "2019",
@@ -20,7 +28,7 @@ export const useWorkStore = defineStore("workStore", {
         link: "https://mega.rs/",
       },
 	  {
-        id: 3,
+        id: 4,
         name: "WPorb d.o.o.",
         position: "Junior PHP Developer",
         from: "2017",
@@ -28,7 +36,7 @@ export const useWorkStore = defineStore("workStore", {
         link: "https://wporb.com/",
       },
 	  {
-        id: 4,
+        id: 5,
         name: "Atiscom Sàrl",
         position: "Wordpress Developer",
         from: "2016",
