@@ -9,7 +9,7 @@
     <p
       class="text-sm md:text-base leading-relaxed slg:text-lg lg:leading-loose"
     >
-      I have more than a decade of experience working in <LinkBtn link="https://profiles.wordpress.org/stefanpejcic/#content-plugins" target="_blank">WordPress</LinkBtn> and <LinkBtn link="https://openpanel.com/?utm_source=pejcic.rs" target="_blank">cPanel</LinkBtn>.
+      I have more than a decade of experience working in <LinkBtn link="https://profiles.wordpress.org/stefanpejcic/#content-plugins" target="_blank">WordPress</LinkBtn> and <LinkBtn link="https://openpanel.com/?utm_source=pejcic.rs" target="_blank">OpenPanel</LinkBtn>.
 	  Currently, I work as as a System Administrator and Team Leader at <LinkBtn link="https://netops.com" target="_blank">NETOPS Group</LinkBtn> delivering exceptional support to customers through phone, email, and chat. I lead by example, organize work, build reports, handle escalations, and help with ad hoc projects, and training.
     </p>
 	
