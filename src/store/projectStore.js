@@ -16,16 +16,6 @@ export const useProjectStore = defineStore("projectStore", {
       },
       {
         id: 2,
-        name: "👨‍💻 PC✘3.com",
-        image: new URL("../assets/featured/pcx3.webp", import.meta.url)
-          .href,
-        description:
-          "Guides on how to solve common cPanel and Linux problems.",
-        tech: ["Vue.js", "Pinia", "TailwindCSS"],
-        link: "https://pcx3.com/",
-      },
-      {
-        id: 3,
         name: "wp✘SS",
         image: new URL("../assets/featured/wpxss.webp", import.meta.url)
           .href,
@@ -35,23 +25,13 @@ export const useProjectStore = defineStore("projectStore", {
         link: "https://wpxss.com/",
       },
       {
-        id: 4,
+        id: 3,
 		name: "🐝 Pčelarstvo Pejčić",
         image: new URL("../assets/featured/pcelarstvopejcic.webp", import.meta.url).href,
         description:
           "Med i ostali pčelinji proizvodi iz srca Stare Planine.",
         tech: ["JS", "Node.js", "MongoDB", "Heroku"],
         link: "https://pcelarstvopejcic.com",
-      },
-      {
-        id: 5,
-        name: "plugins.club",
-        image: new URL("../assets/featured/pluginsclub.webp", import.meta.url).href,
-        description:
-          "Free & Premium WordPress Plugins.",
-        tech: ["Vue.js", "TailwindCSS"],
-        link: "https://plugins.club",
-		featured: true,
       },
     ],
     grave: [
