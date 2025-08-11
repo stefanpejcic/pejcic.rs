@@ -3,7 +3,6 @@ import NotFound from "../views/NotFound.vue";
 import TheAbout from "../views/TheAbout.vue";
 import TheHome from "../views/TheHome.vue";
 import TheProjects from "../views/TheProjects.vue";
-import TheDomains from "../views/TheDomains.vue";
 
 const routes = [
   {
