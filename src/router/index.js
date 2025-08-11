@@ -22,11 +22,6 @@ const routes = [
     component: TheAbout,
   },
   {
-    path: "/domains",
-    name: "domains",
-    component: TheDomains,
-  },
-  {
     path: "/projects",
     name: "projects",
     component: TheProjects,
