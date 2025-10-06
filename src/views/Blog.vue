@@ -44,6 +44,7 @@ const modules = import.meta.glob('../posts/*.md', { as: 'raw' })
 onMounted(async () => {
   const postList = []
   for (const path in modules) {
+    console.log('Found post:', path)    
     const slug = path.split('/').pop().replace(/\.md$/, '')
     const raw = await modules[path]()
     const titleMatch = raw.match(/^#\s+(.*)$/m)
