@@ -38,8 +38,7 @@ const posts = ref([])
 const selectedPost = ref(null)
 const postContent = ref('')
 const selectedPostTitle = ref('')
-
-const modules = import.meta.glob('../posts/*.md', { as: 'raw' })
+const modules = import.meta.glob('/src/posts/*.md', { as: 'raw' })
 
 onMounted(async () => {
   const postList = []
