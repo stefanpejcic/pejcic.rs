@@ -1,17 +1,32 @@
 <template>
-  <div>
-    <h1>Blog</h1>
-    <div v-if="!selectedPost">
-      <div v-for="post in posts" :key="post.slug">
-        <button @click="openPost(post.slug)">
-          {{ post.title }}
-        </button>
+  <div class="flex flex-col gap-16 slg:gap-24">
+    <div class="flex flex-col gap-5 slg:gap-12" v-if="!selectedPost">
+      <h1 class="text-2xl sm:text-3xl md:text-4xl slg:text-5xl font-theme_bold text-head_text">
+        Blog<span class="text-link_text_hover">.</span>
+      </h1>
+      <p class="text-base slg:text-lg">
+        Here you'll find blog posts and updates. Click a title to read more!
+      </p>
+      <div class="flex flex-col mt-10 gap-8">
+        <div v-for="post in posts" :key="post.slug" class="flex flex-col gap-1">
+          <button
+            class="font-theme_bold text-head_text text-lg text-left hover:underline"
+            @click="openPost(post.slug)"
+          >
+            {{ post.title }}
+          </button>
+        </div>
       </div>
     </div>
     <div v-else>
-      <button @click="selectedPost = null">&larr; Back</button>
-      <h2>{{ selectedPostTitle }}</h2>
-      <div v-html="postContent"></div>
+      <button
+        class="mb-8 text-link_text_hover font-theme_bold"
+        @click="selectedPost = null"
+      >
+        &larr; Back to all posts
+      </button>
+      <h2 class="text-3xl font-theme_bold text-head_text mb-6">{{ selectedPostTitle }}</h2>
+      <div v-html="postContent" class="prose prose-invert max-w-none"></div>
     </div>
   </div>
 </template>
