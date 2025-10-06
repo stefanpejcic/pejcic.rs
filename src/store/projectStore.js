@@ -10,12 +10,23 @@ export const useProjectStore = defineStore("projectStore", {
           .href,
         description:
           "Next generation hosting control panel",
-        tech: ["React", "Flask", "Docker"],
+        tech: ["Python", "React", "Flask", "Docker", "Docusaurus"],
         link: "https://openpanel.com/",
 		featured: true,
       },
       {
         id: 2,
+        name: "Sentinel Firewall",
+        image: new URL("../assets/featured/sentinelfirewall.png", import.meta.url)
+          .href,
+        description:
+          "fork of ConfigServer Firewall & Security",
+        tech: ["Perl", "Bash"],
+        link: "https://sentinelfirewall.org/",
+		featured: true,
+      },
+		{
+        id: 3,
         name: "wp✘SS",
         image: new URL("../assets/featured/wpxss.webp", import.meta.url)
           .href,
@@ -25,7 +36,7 @@ export const useProjectStore = defineStore("projectStore", {
         link: "https://wpxss.com/",
       },
       {
-        id: 3,
+        id: 4,
 		name: "🐝 Pčelarstvo Pejčić",
         image: new URL("../assets/featured/pcelarstvopejcic.webp", import.meta.url).href,
         description:
