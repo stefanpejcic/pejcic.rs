@@ -38,19 +38,21 @@ const posts = ref([])
 const selectedPost = ref(null)
 const postContent = ref('')
 const selectedPostTitle = ref('')
-const modules = import.meta.glob('/src/posts/*.md', { as: 'raw' })
+const modules = import.meta.glob('../posts/*.md', { as: 'raw' })
 
 onMounted(async () => {
   const postList = []
   for (const path in modules) {
-    console.log('Found post:', path)    
-    const slug = path.split('/').pop().replace(/\.md$/, '')
-    const raw = await modules[path]()
-    const titleMatch = raw.match(/^#\s+(.*)$/m)
-    postList.push({
-      slug,
-      title: titleMatch ? titleMatch[1].trim() : slug
-    })
+    if (typeof modules[path] === 'function') {
+      const raw = await modules[path]()
+      const titleMatch = raw.match(/^#\s+(.*)$/m)
+      postList.push({
+        slug: path.split('/').pop().replace(/\.md$/, ''),
+        title: titleMatch ? titleMatch[1].trim() : 'Untitled'
+      })
+    } else {
+      console.error('modules[path] is not a function:', path)
+    }
   }
   posts.value = postList
 })
