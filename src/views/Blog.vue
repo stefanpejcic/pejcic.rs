@@ -38,21 +38,21 @@ const posts = ref([])
 const selectedPost = ref(null)
 const postContent = ref('')
 const selectedPostTitle = ref('')
-const modules = import.meta.glob('../posts/*.md', { as: 'raw' })
+const modules = import.meta.glob('../posts/*.md')
 
 onMounted(async () => {
   const postList = []
   for (const path in modules) {
-    if (typeof modules[path] === 'function') {
-      const raw = await modules[path]()
-      const titleMatch = raw.match(/^#\s+(.*)$/m)
-      postList.push({
-        slug: path.split('/').pop().replace(/\.md$/, ''),
-        title: titleMatch ? titleMatch[1].trim() : 'Untitled'
-      })
-    } else {
-      console.error('modules[path] is not a function:', path)
-    }
+    console.log('Found post:', path, typeof modules[path])
+    // For Vite 2, modules[path] is a function returning a module with .default
+    const rawModule = await modules[path]()
+    const raw = rawModule.default
+    const slug = path.split('/').pop().replace(/\.md$/, '')
+    const titleMatch = raw.match(/^#\s+(.*)$/m)
+    postList.push({
+      slug,
+      title: titleMatch ? titleMatch[1].trim() : slug
+    })
   }
   posts.value = postList
 })
@@ -65,7 +65,8 @@ async function openPost(slug) {
     selectedPostTitle.value = ''
     return
   }
-  const md = await modules[path]()
+  const rawModule = await modules[path]()
+  const md = rawModule.default
   const titleMatch = md.match(/^#\s+(.*)$/m)
   selectedPostTitle.value = titleMatch ? titleMatch[1].trim() : slug
   const content = md.replace(/^#\s+.*$/m, '')
