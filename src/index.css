@@ -5,13 +5,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "MonoLisa";
-  src: url("./assets/fonts/MonoLisa-Regular.woff2");
+  font-family: "FiraCode";
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/ttf/FiraCode-Regular.ttf");
 }
 
 @font-face {
-  font-family: "MonoLisaBold";
-  src: url("./assets/fonts/MonoLisa-Bold.woff2");
+  font-family: "FiraCodeBold";
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/firacode/6.2.0/ttf/FiraCode-Bold.ttf");
 }
 
 @font-face {
