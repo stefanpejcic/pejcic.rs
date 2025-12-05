@@ -48,12 +48,12 @@ export const useProjectStore = defineStore("projectStore", {
     grave: [
 	  {
         id: 1,
-        name: "Domain Monitor",
+        name: "Heimdall",
         image: new URL("../assets/featured/calc.jpg", import.meta.url).href,
         description:
           "Monitor domain WHOIS, SSL and Uptime with GitHub Actions 🕒",
         tech: ["Python", "MathLib"],
-        link: "https://github.com/stefanpejcic/domain-monitor",
+        link: "https://github.com/stefanpejcic/heimdall",
       },
       {
         id: 2,
