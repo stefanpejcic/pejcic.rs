@@ -46,28 +46,37 @@ export const useProjectStore = defineStore("projectStore", {
       },
     ],
     grave: [
-      {
+	  {
         id: 1,
-        name: "ćirilica u ošišanu latinicu",
-        image: new URL("../assets/featured/case_changer.jpg", import.meta.url)
-          .href,
+        name: "Domain Monitor",
+        image: new URL("../assets/featured/calc.jpg", import.meta.url).href,
         description:
-          "Prevodi cirilicu u latinicu i obrnuto.",
-        tech: ["Python", "Pandas"],
-        link: "https://github.com/stefanpejcic/Cirilica-u-Latinicu",
+          "Monitor domain WHOIS, SSL and Uptime with GitHub Actions 🕒",
+        tech: ["Python", "MathLib"],
+        link: "https://github.com/stefanpejcic/domain-monitor",
       },
       {
         id: 2,
+        name: "Email Filter",
+        image: new URL("../assets/featured/case_changer.jpg", import.meta.url)
+          .href,
+        description:
+          "Self-hosted, privacy-focused email validation 📨🔐",
+        tech: ["Python", "Shell"],
+        link: "https://github.com/stefanpejcic/EmailFilter",
+      },
+      {
+        id: 3,
         name: "WordPress Malware Collection",
         image: new URL("../assets/featured/tic_tac_toe.jpg", import.meta.url)
           .href,
         description:
-          "Collection of malware files found on WordPress sites.",
+          "Collection of malware files found on hacked WordPress sites.",
         tech: ["Python", "Pandas"],
         link: "https://github.com/stefanpejcic/wordpress-malware",
       },
       {
-        id: 3,
+        id: 4,
         name: "ColdFusion Cheat Sheet",
         image: new URL("../assets/featured/calc.jpg", import.meta.url).href,
         description:
@@ -76,13 +85,13 @@ export const useProjectStore = defineStore("projectStore", {
         link: "https://stefanpejcic.github.io/coldfusion/",
       },
 	  {
-        id: 4,
-        name: "FixPermissions cPanel plugin",
+        id: 5,
+        name: "EmptyStandbyList",
         image: new URL("../assets/featured/calc.jpg", import.meta.url).href,
         description:
-          "Fix permissions for each domain under a cpanel account.",
+          "Empty Standby Memory automatically with Task Scheduler + EmptyStandbyList + .BAT",
         tech: ["Python", "MathLib"],
-        link: "https://github.com/stefanpejcic/fixPermissions-cpanel-plugin",
+        link: "https://github.com/stefanpejcic/EmptyStandbyList",
       },
     ],
   }),
